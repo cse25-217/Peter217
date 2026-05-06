@@ -1,124 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<title>Automechanical Spares Hunters</title>
-
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <title>Automechanical Spares Hunters</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-<body class="bg-light">
+<body>
 
 <!-- HEADER -->
-<header class="text-white p-4" 
-style="background: url('truck.jpg') center/cover no-repeat;">
+<header>
+    <h1>AUTOMECHANICAL SPARES HUNTERS</h1>
 
-<div class="d-flex justify-content-between align-items-center">
+    <input type="text" placeholder="Search...">
 
-<!-- LOGO -->
-<div class="bg-dark bg-opacity-75 p-3 rounded-circle">
-<h5 class="m-0">LOGO</h5>
-</div>
-
-<!-- TITLE -->
-<div class="text-center">
-<h2>Automechanical Spares Hunters</h2>
-<p>Your trusted source for truck spare parts</p>
-</div>
-
-<!-- SEARCH -->
-<div class="input-group" style="width:250px;">
-<input type="text" class="form-control" placeholder="Search...">
-<button class="btn btn-light">🔍</button>
-</div>
-
-</div>
-
+    <span class="cart">🛒</span>
 </header>
 
-
-<!-- NAV -->
-<nav class="bg-secondary text-center p-3">
-
-<a href="#" class="btn btn-light m-1">Home</a>
-<a href="#" class="btn btn-light m-1">About</a>
-<a href="#" class="btn btn-light m-1">Parts</a>
-<a href="#" class="btn btn-light m-1">Suppliers</a>
-<a href="#" class="btn btn-light m-1">Request</a>
-
+<!-- NAVIGATION -->
+<nav>
+    <button>Engine</button>
+    <button>Brakes</button>
+    <button>Electrical</button>
+    <button>Body</button>
+    <button>Accessories</button>
 </nav>
 
+<!-- MAIN CONTENT -->
+<main>
 
-<!-- MAIN -->
-<main class="container-fluid mt-3">
+    <!-- SPECIAL DEALS -->
+    <aside class="left">
+        <h2>Special Deals</h2>
 
-<div class="row">
+        <article>
+            <img src="engine.jpg" alt="Engine">
+            <p><strong>Heavy Duty V8 Engine</strong></p>
+            <p>Fits: Volvo FH16</p>
+            <p>P28,500</p>
+            <button>Add to Cart</button>
+        </article>
+    </aside>
 
-<!-- LEFT SIDEBAR -->
-<aside class="col-md-3 border p-3">
+    <!-- CENTER PRODUCTS -->
+    <section class="center">
 
-<h5>Truck Spare Parts Categories</h5>
+        <figure class="banner">
+            <img src="banner.jpg" alt="Truck Banner">
+        </figure>
 
-<p>Engine Parts</p>
-<p>Brake Parts</p>
-<p>Electrical Parts</p>
-<p>Body Parts</p>
+        <section class="products">
+            <article>
+                <img src="brake.jpg">
+                <p>Brake Pads</p>
+                <p>P850</p>
+                <button>Add to Cart</button>
+            </article>
 
-<h5>🎬 Media</h5>
+            <article>
+                <img src="battery.jpg">
+                <p>12V Battery</p>
+                <p>P1,200</p>
+                <button>Add to Cart</button>
+            </article>
 
+            <article>
+                <img src="clutch.jpg">
+                <p>Clutch Kit</p>
+                <p>P3,800</p>
+                <button>Add to Cart</button>
+            </article>
+        </section>
 
+    </section>
 
-</aside>
+    <!-- REQUEST FORM -->
+    <aside class="right">
+        <h2>Request Form</h2>
 
+        <form>
+            <label>Name</label>
+            <input type="text">
 
-<!-- CENTER CONTENT -->
-<section class="col-md-6 border p-3">
+            <label>Email</label>
+            <input type="email">
 
-<h5>📰 Featured Topic</h5>
+            <label>Phone</label>
+            <input type="text">
 
-<div class="border border-primary border-dashed p-5 mb-3 text-center">
-Image Placeholder
-</div>
+            <label>Truck Model</label>
+            <input type="text">
 
-<p>Content goes here</p>
-<p>Additional content goes here...</p>
+            <label>Description</label>
+            <textarea></textarea>
 
-</section>
-
-
-<!-- RIGHT SIDEBAR -->
-<aside class="col-md-3 border p-3">
-
-<h5>Request Form</h5>
-
-<p>👤 Name</p>
-<p>💬 Message</p>
-<p>✅ Submit</p>
-
-</aside>
-
-</div>
+            <button type="submit">Submit</button>
+        </form>
+    </aside>
 
 </main>
 
-
 <!-- FOOTER -->
-<footer class="bg-primary text-white d-flex justify-content-between p-2 mt-3">
-
-<div>© Copyright</div>
-<div>Privacy</div>
-
+<footer>
+    <p>© 2026 AUTOMECHANICAL SPARES HUNTERS</p>
+    <p>Privacy Policy</p>
 </footer>
 
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
