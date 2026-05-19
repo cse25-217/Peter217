@@ -1,111 +1,359 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Automechanical Spares Hunters</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoMechanical Spares Hunters</title>
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<!-- HEADER -->
-<header>
-    <h1>AUTOMECHANICAL SPARES HUNTERS</h1>
+    <!-- HEADER -->
 
-    <input type="text" placeholder="Search...">
+    <header class="main-header">
 
-    <span class="cart">🛒</span>
-</header>
+        <nav class="navbar">
 
-<!-- NAVIGATION -->
-<nav>
-    <a href="index.html">Home</a>
-    <a href="engines.html">Engine</a>
-    <a href="brakes.html">Brakes</a>
-    <a href="electrical.html">Electrical</a>
-    <a href="body.html">Body</a>
-    <a href="accessories.html">Accessories</a>
-</nav>
-    
-<!-- MAIN CONTENT -->
-<main>
+            <section class="logo">
 
-    <!-- SPECIAL DEALS -->
-    <aside class="left">
-        <h2>Special Deals</h2>
+                <h1>AutoMechanical Spares Hunters</h1>
 
-        <article>
-            <img src="engine.jpg" alt="Engine">
-            <p><strong>Heavy Duty V8 Engine</strong></p>
-            <p>Fits: Volvo FH16</p>
-            <p>P28,500</p>
-            <button>Add to Cart</button>
-        </article>
-    </aside>
+            </section>
 
-    <!-- CENTER PRODUCTS -->
-    <section class="center">
+            <ul class="nav-links">
 
-        <figure class="banner">
-            <img src="banner.jpg" alt="Truck Banner">
-        </figure>
+                <li><a href="index.html">Home</a></li>
 
-        <section class="products">
-            <article>
-                <img src="brake.jpg">
-                <p>Brake Pads</p>
-                <p>P850</p>
-                <button>Add to Cart</button>
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="suppliers.html">Suppliers</a></li>
+
+                <li><a href="products.html">Products</a></li>
+
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero-section">
+
+            <article class="hero-content">
+
+                <h2>
+                    Trusted Truck Spare Suppliers
+                </h2>
+
+                <p>
+                    We connect truck owners and transport businesses
+                    with trusted suppliers of genuine truck spare parts
+                    to reduce scams and improve accessibility.
+                </p>
+
+                <section class="hero-buttons">
+
+                    <a href="suppliers.html" class="primary-btn">
+                        Find Suppliers
+                    </a>
+
+                    <a href="products.html" class="secondary-btn">
+                        Explore Parts
+                    </a>
+
+                </section>
+
             </article>
 
-            <article>
-                <img src="battery.jpg">
-                <p>12V Battery</p>
-                <p>P1,200</p>
-                <button>Add to Cart</button>
-            </article>
-
-            <article>
-                <img src="clutch.jpg">
-                <p>Clutch Kit</p>
-                <p>P3,800</p>
-                <button>Add to Cart</button>
-            </article>
         </section>
 
-    </section>
+        <!-- WHY CHOOSE US -->
 
-    <!-- REQUEST FORM -->
-    <aside class="right">
-        <h2>Request Form</h2>
+        <section class="why-us">
 
-        <form>
-            <label>Name</label>
-            <input type="text">
+            <h2 class="section-title">
+                Why Choose Us
+            </h2>
 
-            <label>Email</label>
-            <input type="email">
+            <section class="features-container">
 
-            <label>Phone</label>
-            <input type="text">
+                <article class="feature-card">
 
-            <label>Truck Model</label>
-            <input type="text">
+                    <i class="fa-solid fa-shield-halved"></i>
 
-            <label>Description</label>
-            <textarea></textarea>
+                    <h3>Verified Suppliers</h3>
 
-            <button type="submit">Submit</button>
-        </form>
-    </aside>
+                    <p>
+                        We help users avoid fake suppliers and online scams.
+                    </p>
 
-</main>
+                </article>
 
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 AUTOMECHANICAL SPARES HUNTERS</p>
-    <p>Privacy Policy</p>
-</footer>
+                <article class="feature-card">
+
+                    <i class="fa-solid fa-truck-moving"></i>
+
+                    <h3>Truck Specialists</h3>
+
+                    <p>
+                        Specialized suppliers for heavy duty truck spare parts.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <i class="fa-solid fa-gears"></i>
+
+                    <h3>Quality Products</h3>
+
+                    <p>
+                        Access genuine truck parts from trusted suppliers.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- FEATURED SUPPLIERS -->
+
+        <section class="featured-suppliers">
+
+            <h2 class="section-title">
+                Featured Suppliers
+            </h2>
+
+            <section class="supplier-container">
+
+                <article class="supplier-card">
+
+                    <img src="images/supplier1.jpg"
+                        alt="Volvo Truck Supplier"
+                        width="300"
+                        height="200">
+
+                    <h3> Zee Volvo Parts</h3>
+
+                    <p>
+                        Trusted supplier for Volvo truck spare parts.
+                    </p>
+
+                    <a href="suppliers.html" class="card-btn">
+                        View Supplier
+                    </a>
+
+                </article>
+
+                <article class="supplier-card">
+
+                    <img src="images/supplier2.jpg"
+                        alt="Scania Truck Supplier"
+                        width="300"
+                        height="200">
+
+                    <h3>Scania Diesel Hub</h3>
+
+                    <p>
+                        Genuine Scania parts and truck accessories.
+                    </p>
+
+                    <a href="suppliers.html" class="card-btn">
+                        View Supplier
+                    </a>
+
+                </article>
+
+                <article class="supplier-card">
+
+                    <img src="images/supplier3.jpg"
+                        alt="Mercedes Truck Supplier"
+                        width="300"
+                        height="200">
+
+                    <h3>Mercedes Truck World</h3>
+
+                    <p>
+                        Quality heavy duty truck spare components.
+                    </p>
+
+                    <a href="suppliers.html" class="card-btn">
+                        View Supplier
+                    </a>
+
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- FEATURED PRODUCTS -->
+
+        <section class="featured-products">
+
+            <h2 class="section-title">
+                Popular Truck Parts
+            </h2>
+
+            <section class="products-container">
+
+                <article class="product-card">
+
+                    <img src="images/brakepads.jpg"
+                        alt="Truck Brake Pads"
+                        width="300"
+                        height="200">
+
+                    <h3>Brake Pads</h3>
+
+                    <p>
+                        Heavy duty brake pads for commercial trucks.
+                    </p>
+
+                </article>
+
+                <article class="product-card">
+
+                    <img src="images/gearbox.jpg"
+                        alt="Truck Gearbox"
+                        width="300"
+                        height="200">
+
+                    <h3>Truck Gearboxes</h3>
+
+                    <p>
+                        Durable gearbox systems for transport trucks.
+                    </p>
+
+                </article>
+
+                <article class="product-card">
+
+                    <img src="images/filter.jpg"
+                        alt="Truck Oil Filter"
+                        width="300"
+                        height="200">
+
+                    <h3>Oil Filters</h3>
+
+                    <p>
+                        High performance oil filters for truck engines.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- TESTIMONIALS -->
+
+        <section class="testimonials">
+
+            <h2 class="section-title">
+                Customer Reviews
+            </h2>
+
+            <section class="testimonial-container">
+
+                <article class="testimonial-card">
+
+                    <p>
+                        “I managed to find genuine truck parts without getting scammed online.”
+                    </p>
+
+                    <h4>- Kabelo M.</h4>
+
+                </article>
+
+                <article class="testimonial-card">
+
+                    <p>
+                        “The platform made it easier to locate trusted Scania suppliers.”
+                    </p>
+
+                    <h4>- Thato R.</h4>
+
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- CALL TO ACTION -->
+
+        <section class="cta-section">
+
+            <h2>
+                Need Genuine Truck Spare Parts?
+            </h2>
+
+            <p>
+                Browse trusted suppliers and quality truck components today.
+            </p>
+
+            <a href="contact.html" class="primary-btn">
+                Contact Us
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+
+        <section class="footer-content">
+
+            <article>
+
+                <h3>AutoMechanical Spares Hunters</h3>
+
+                <p>
+                    Connecting truck owners with trusted truck spare suppliers in Botswana.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>Contact Information</h3>
+
+                <p>Email: info@spareshuntersbw.com</p>
+
+                <p>Phone: +267 71 234 567</p>
+
+            </article>
+
+        </section>
+
+        <section class="footer-bottom">
+
+            <p>
+                &copy; 2026 AutoMechanical Spares Hunters | All Rights Reserved
+            </p>
+
+        </section>
+
+    </footer>
 
 </body>
+
 </html>
