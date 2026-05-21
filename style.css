@@ -200,17 +200,20 @@ button:hover,
     gap: 30px;
 }
 
-.feature-card {
-    background-color: #f8fafc;
-    padding: 40px 25px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
+.feature-card{
+    background:#fff;
+    padding:40px 25px;
+    border-radius:10px;
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+
+    transition:.3s;
 }
 
-.feature-card:hover {
-    transform: translateY(-10px);
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.18);
 }
 
 /* =========================
