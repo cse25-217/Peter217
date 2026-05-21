@@ -45,7 +45,7 @@ img {
 
 .main-header {
     background-color: #0f172a;
-    padding: 15px 8%;
+    padding: 8px 8%;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -61,7 +61,7 @@ img {
     align-items: center;
     flex-wrap: wrap;
     background-color: #0f172a !important;
-    padding: 12px 6%;
+    padding: 6px 6%;
 }
 
 /* =========================
@@ -103,7 +103,7 @@ img {
 ========================= */
 
 .hero-section {
-    min-height: 85vh;
+    min-height: 60vh;
 
 
     background-image:
