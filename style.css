@@ -60,7 +60,8 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    background-color: #0f172a !important;
+    padding: 12px 6%;
 }
 
 /* =========================
@@ -472,26 +473,17 @@ button:hover,
     padding: 20px;
 }
 
-/* animations */
-* {
-    transition: background-color 0.3s ease,
-                color 0.3s ease,
-                transform 0.3s ease;
-}
 
-/* Better typography */
-h1, h2, h3 {
-    line-height: 1.2;
-}
 
-/* Cleaner text */
-p {
-    color: #475569;
-}
+
+
 
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
+
+
+
 
 @media (max-width: 992px) {
 
@@ -500,6 +492,7 @@ p {
         flex-direction: column;
         gap: 20px;
     }
+
 
     .hero-content h2 {
         font-size: 42px;
