@@ -405,3 +405,58 @@ button:hover,
     text-align: center;
     padding: 20px;
 }
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+
+@media (max-width: 992px) {
+
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 42px;
+    }
+
+
+    .section-title {
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .hero-content h2 {
+        font-size: 34px;
+    }
+
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+
+    .nav-links {
+        justify-content: center;
+    }
+
+
+    .page-banner h2 {
+        font-size: 36px;
+    }
+
+
+    .cta-section h2 {
+        font-size: 30px;
+    }
+}
