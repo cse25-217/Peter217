@@ -60,8 +60,7 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #0f172a !important;
-    padding: 12px 6%;
+    gap: 20px;
 }
 
 /* =========================
@@ -105,6 +104,7 @@ img {
 .hero-section {
     min-height: 85vh;
 
+
     background-image:
         linear-gradient(
             rgba(0,0,0,0.7),
@@ -112,23 +112,29 @@ img {
         ),
         url("truck-banner.png");
 
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+
     text-align: center;
+
 
     padding: 40px 20px;
 }
+
 
 .hero-content {
     max-width: 850px;
     margin: auto;
 }
+
 
 .hero-content h2 {
     font-size: 60px;
@@ -136,15 +142,18 @@ img {
     margin-bottom: 20px;
 }
 
+
 .hero-content p {
     font-size: 20px;
     color: #e2e8f0;
     margin-bottom: 35px;
 }
 
+
 /* =========================
    BUTTONS
 ========================= */
+
 
 .hero-buttons {
     display: flex;
@@ -152,6 +161,7 @@ img {
     gap: 20px;
     flex-wrap: wrap;
 }
+
 
 button,
 .btn,
@@ -170,6 +180,7 @@ button,
     display: inline-block;
 }
 
+
 button:hover,
 .btn:hover,
 .primary-btn:hover,
@@ -179,9 +190,11 @@ button:hover,
     color: white;
 }
 
+
 /* =========================
    SECTION TITLES
 ========================= */
+
 
 .section-title {
     text-align: center;
@@ -190,14 +203,17 @@ button:hover,
     color: #0f172a;
 }
 
+
 /* =========================
    FEATURES
 ========================= */
+
 
 .why-us {
     padding: 70px 8%;
     background-color: white;
 }
+
 
 .features-container {
     display: grid;
@@ -205,36 +221,44 @@ button:hover,
     gap: 30px;
 }
 
+
 .feature-card{
     background:#fff;
     padding:25px;
     border-radius:10px;
     text-align:center;
 
+
     box-shadow:0 5px 15px rgba(0,0,0,0.12);
+
 
     transition:.3s;
 }
+
 
 .feature-card:hover{
     transform:translateY(-10px);
     box-shadow:0 10px 25px rgba(0,0,0,0.18);
 }
 
+
 /* =========================
    SUPPLIER SECTION
 ========================= */
+
 
 .featured-suppliers {
     padding: 70px 8%;
     background-color: #f1f5f9;
 }
 
+
 .supplier-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
+
 
 .supplier-card {
     background-color: white;
@@ -244,29 +268,35 @@ button:hover,
     transition: 0.3s ease;
 }
 
+
 .supplier-card:hover {
     transform: translateY(-10px);
 }
+
 
 .supplier-card img {
     width: 100%;
     height: auto;
 }
 
+
 /* =========================
    PRODUCTS SECTION
 ========================= */
+
 
 .featured-products {
     padding: 70px 8%;
     background-color: white;
 }
 
+
 .products-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
+
 
 .product-card {
     background-color: #f8fafc;
@@ -277,9 +307,11 @@ button:hover,
     transition: 0.3s ease;
 }
 
+
 .product-card:hover {
     transform: translateY(-10px);
 }
+
 
 .product-card img {
     width: 100%;
@@ -287,20 +319,24 @@ button:hover,
     object-fit: cover;
 }
 
+
 /* =========================
    TESTIMONIALS
 ========================= */
+
 
 .testimonials {
     padding: 70px 8%;
     background-color: #f1f5f9;
 }
 
+
 .testimonial-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
+
 
 .testimonial-card {
     background-color: white;
@@ -309,9 +345,11 @@ button:hover,
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
 
+
 /* =========================
    CTA SECTION
 ========================= */
+
 
 .cta-section {
     background-color: #0f172a;
@@ -320,14 +358,17 @@ button:hover,
     padding: 70px 8%;
 }
 
+
 .cta-section h2 {
     font-size: 42px;
     margin-bottom: 20px;
 }
 
+
 /* =========================
    PAGE BANNER
 ========================= */
+
 
 .page-banner {
     background-color: #0f172a;
@@ -336,19 +377,23 @@ button:hover,
     padding: 60px 20px;
 }
 
+
 .page-banner h2 {
     font-size: 50px;
 }
 
+
 /* =========================
    CONTACT FORM
 ========================= */
+
 
 .contact-form-section {
     padding: 70px 8%;
     display: flex;
     justify-content: center;
 }
+
 
 .contact-form {
     width: 100%;
@@ -359,11 +404,13 @@ button:hover,
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
 
+
 .contact-form label {
     display: block;
     margin: 20px 0 10px;
     font-weight: bold;
 }
+
 
 .contact-form input,
 .contact-form textarea {
@@ -373,9 +420,11 @@ button:hover,
     border-radius: 5px;
 }
 
+
 /* =========================
    FOOTER
 ========================= */
+
 
 .main-footer {
     background-color: #020617;
@@ -383,31 +432,39 @@ button:hover,
     padding-top: 60px;
 }
 
+
 .footer-content {
     padding: 0 8% 50px;
+
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
+
     gap: 40px;
 }
+
 
 .footer-content ul {
     list-style: none;
 }
 
+
 .footer-content ul li {
     margin-bottom: 10px;
 }
+
 
 .footer-content ul li a {
     color: white;
     text-decoration: none;
 }
 
+
 .footer-content ul li a:hover {
     color: #f59e0b;
 }
+
 
 .footer-bottom {
     background-color: black;
@@ -415,14 +472,29 @@ button:hover,
     padding: 20px;
 }
 
+/* animations */
+* {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.3s ease;
+}
 
+/* Better typography */
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+/* Cleaner text */
+p {
+    color: #475569;
+}
 
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
 
-
 @media (max-width: 992px) {
+
 
     .navbar {
         flex-direction: column;
@@ -433,28 +505,35 @@ button:hover,
         font-size: 42px;
     }
 
+
     .section-title {
         font-size: 32px;
     }
 }
 
+
 @media (max-width: 768px) {
+
 
     .hero-content h2 {
         font-size: 34px;
     }
 
+
     .hero-content p {
         font-size: 16px;
     }
+
 
     .nav-links {
         justify-content: center;
     }
 
+
     .page-banner h2 {
         font-size: 36px;
     }
+
 
     .cta-section h2 {
         font-size: 30px;
