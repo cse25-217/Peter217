@@ -334,24 +334,6 @@ button:hover,
     font-size: 50px;
 }
 
-.about-banner {
-    background-image: url("about_banner.png");
-}
-
-.services-banner {
-    background-image: url("services_banner.png");
-}
-
-.about-banner,
-.services-banner,{
-    height:55vh;
-    min-height:420px;
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-}
-
 /* =========================
    CONTACT FORM
 ========================= */
