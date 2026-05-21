@@ -354,6 +354,19 @@ button:hover,
     background-image: url("contact_banner.png");
 }
 
+.about-banner,
+.suppliers-banner,
+.products-banner,
+.services-banner,
+.contact-banner{
+    height:55vh;
+    min-height:420px;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
 /* =========================
    CONTACT FORM
 ========================= */
