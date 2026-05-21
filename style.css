@@ -338,27 +338,12 @@ button:hover,
     background-image: url("about_banner.png");
 }
 
-.suppliers-banner {
-    background-image: url("suppliers_banner.png");
-}
-
-.products-banner {
-    background-image: url("products_banner.png");
-}
-
 .services-banner {
     background-image: url("services_banner.png");
 }
 
-.contact-banner {
-    background-image: url("contact_banner.png");
-}
-
 .about-banner,
-.suppliers-banner,
-.products-banner,
-.services-banner,
-.contact-banner{
+.services-banner,{
     height:55vh;
     min-height:420px;
 
