@@ -273,28 +273,30 @@ footer,
 }
 
 /* ===== MOBILE ===== */
-
 @media(max-width:768px){
+
+    header{
+        height:auto;
+    }
 
     .custom-navbar{
         flex-direction:column;
-        gap:20px;
+        gap:15px;
+        padding:10px 5%;
+    }
+
+    .logo img{
+        width:140px;
     }
 
     .nav-links{
         flex-wrap:wrap;
         justify-content:center;
+        gap:10px;
     }
 
-    .hero-content h2{
-        font-size:40px;
-    }
-
-    .hero-content p{
-        font-size:16px;
-    }
-
-    .page-banner h2{
-        font-size:35px;
+    .nav-links a{
+        padding:6px 10px;
+        font-size:14px;
     }
 }
