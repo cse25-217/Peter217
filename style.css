@@ -78,19 +78,20 @@ header{
 
 .hero-content{
     max-width:850px;
-    text-align: center;
 }
 
 .hero-content h2{
     font-size:65px;
     margin-bottom:20px;
     line-height:1.1;
+    text-align: center;
 }
 
 .hero-content p{
     font-size:20px;
     color:#dbe4ee;
     margin-bottom:35px;
+    text-align: center;
 }
 
 /* ===== BUTTONS ===== */
